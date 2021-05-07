@@ -1,0 +1,18 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .car {text-align: left;padding: 7% 9%;color: white;}
+    .sedan{background-color: hsl(31, 77%, 52%);}
+    .SUVs{background-color: hsl(184, 100%, 22%);}
+    .Luxury{background-color: hsl(179, 100%, 13%);}
+    h1{font-family: 'Big Shoulders Display', cursive;color: hsl(0, 0%, 95%);}
+    p{color: hsla(0, 0%, 100%, 0.75);}
+    button{background-color: hsl(0, 0%, 95%);border: 2px white solid; border-radius: 50px;height: 50px;width: 150px;margin-top: 60px;}
+    .btn1 {color: hsl(31, 77%, 52%);}
+    .btn2 {color: hsl(184, 100%, 22%);}
+    .btn3 {color: hsl(179, 100%, 13%);}
+    button:hover{background-color: transparent;cursor: pointer;color: white;}
+    .container {display:flex;flex-direction: row;justify-content: center ;border : 10px solid;border-color: transparent;border-radius: 50px;}
+    @media  all and (max-width:376px){
+        .container{flex-direction: column};
+        .car{width:300px};
+  }
